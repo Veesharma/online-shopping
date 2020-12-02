@@ -9,9 +9,9 @@ public class PageController {
 	
 	@RequestMapping(value={"/","/home","/index"})
 	public ModelAndView index(){
-		ModelAndView mv =new ModelAndView("page");
-		mv.addObject("gretting","Welcome to spring mvc message");
-		return mv;
+		ModelAndView m =new ModelAndView("page");
+		m.addObject("gretting","Welcome to spring mvc message");
+		return m;
 		
 		
 	}

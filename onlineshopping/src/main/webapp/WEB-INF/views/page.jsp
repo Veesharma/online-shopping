@@ -10,6 +10,6 @@
 <title>Online Shopping</title>
 </head>
 <body>
-	${contextRoot}.says	-	${gretting}
+	${contextRoot}.saysing -${gretting}
 </body>
 </html>
